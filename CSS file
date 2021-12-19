@@ -1,0 +1,48 @@
+# Datamining-Project-Website
+I created a website for presenting our data mining project using HTML and CSS
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic; 
+
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg);
+	height:100vh ;
+	background-size: cover;
+	background-position: center;
+
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+
+}
+.logo img{
+	float:left;
+	width: 150px;
+	height: auto;
+
+
+}
+.title{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #FFFFE0;
+	font-size: 70px;
+}
+.embed{
+	top: -10%;
+	bottom: 70%;
+	left: 55%;
+	position: absolute ;
+	transform: translate(-50%,-50%);
+}
+
+
+}
