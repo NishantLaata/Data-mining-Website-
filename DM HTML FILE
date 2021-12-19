@@ -1,0 +1,38 @@
+# Datamining-Project-Website
+I created a website for presenting our data mining project using HTML and CSS
+<!-- Project data mining -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IS-733 Project</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class='main'>
+			<div class="logo"> 
+				<img src="logo.png"> 
+
+
+			</div>
+			<ul>
+				<li><a href="#">Project presentation</a></li>
+			</ul>	
+
+		</div>
+		<div class="title">
+			<h1>Project Presentation</h1>
+
+			
+		</div>
+		<div class="embed">
+			<embed style="width:720px; height: 450px;" src=></embed>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/YEWiN3peZik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+
+		</div>
+
+	</header>
+
+</body>
+</html>
