@@ -133,7 +133,26 @@ ul{
 	color: #FFFFE0;
 }
 	
-		
+	
+.exp h3{
+	
+	position: absolute;
+	top: 130%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size:  35px;
+	color: #FFFFE0;		
+}
+
+.expl p{
+	position: absolute;
+	top: 135%;
+/* 	transform: translate(-50%,-50%); */
+	font-size:  20px;
+	color: #FFFFE0;
+}
+	
+	
 		
 	</style>
 
@@ -182,6 +201,59 @@ As additional data becomes available, modelling methods can be used to discover 
 			<p>In the aftermath of COVID-19, it has become considerably more challenging and crucial, since cases have increased dramatically. It is critical to evaluate what the future holds and what actions everyone can take. Forecasting cases can help guide public health decision-making by projecting the likely effects of the COVID-19 pandemic in the next weeks. Understanding the causes that cause the increase in COVID-19 can also help people better comprehend the triggers. They can also avoid areas where there is a risk of transmission.
 		</div>
   In the subject of COVID-19 prediction, there is a lot of research going on. In our study, we want to forecast the number of cases and the factors that influence the number of cases in the future. </p>
+		<div class="exp"
+		     <h3>EXPLORATORY DATA ANALYSIS</h3>
+		</div>
+
+		<div class="expl">
+			<p>Dataset Description:
+
+ 
+
+Datasets used and their selected features: This project utilizes four distinct data sets focused on COVID-19 confirmed cases, deaths, recovered cases, global temperatures.
+
+ 
+
+covid_19_clean_complete: Province, Country, Lat , LONG, Confirmed, Deaths, Recovered Time_series_covid_19_confirmed_US:Province,Country, No_of_Confirmed_cases_by_date Time_series_covid_19_Deaths_US: Province,Country,No_of_Deaths_cases_by_date Time_series_covid_19_Recovered: Province,Country,No_of_Recoevred_cases_by_date GlobalTemprature: LandAverageTemperature, LandAverageTemperatureUncertainty
+
+ 
+
+Data Cleaning:
+
+ 
+
+To clean our varied data sets, we performed multiple procedures. To make our data more compatible with various sorts of data mining tools, we made some basic initial changes such as standardizing, capitalizing, and replacing spaces with underscores. The dataset 'covid 19 clean complete', which is the largest, received a lot more cleaning effort. Using the excel VLOOKUP tool, we separated the temperature dataset into various datasets based on city, state, and nation, which will aid us in developing better visualizations in the future using matplotlib.
+
+ 
+
+Several attributes in this dataset had missing values. We experienced difficulty recovering missing values when dealing with missing values. As a result, we used the built-in R function geopy() to treat missing characteristics (latitude and longitude) in the dataset with the help of 'WHO Region,' which is vital data for our project aim. In terms of other characteristics, we
+
+ 
+
+Because the dataset already has 11,000+ rows, we opted to discard the rows with missing values. We imported the data into MySQL and utilized queries and functions to get all non-empty rows. We removed columns that were no longer needed and would be unused data as part of the cleaning process. To remove the columns from the entire dataset - 'time series covid 19,' we utilized Python's drop() function.
+
+				Table which gives country wise total defined cases and showing top 10 countries.</p> 
+<img src=".jpg" alt=”733_2.PNG”>
+
+
+<p>This is a progression of COVID 19 cases spread graph over time. The radius of the circle represents the number of cases and the colors indicate intensity of cases.</p> 
+			<img src=".jpg" alt=”733_3.PNG”>
+			
+
+
+
+<p>This visualization represents the number of confirmed cases worldwide (focussed on US). (733_4) </p>
+			<img src=".jpg" alt=”733_4.PNG”>
+
+
+
+		     
+	
+	
+	
+	
+	
+	
 	</header>
 	
 	<div class="embed">
