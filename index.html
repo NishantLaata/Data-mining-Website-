@@ -151,10 +151,27 @@ ul{
 	font-size:  20px;
 	color: #FFFFE0;
 }
+
+.i3 p{
+	position: absolute;
+	top: 240%;
+/* 	transform: translate(-50%,-50%); */
+	font-size:  20px;
+	color: #FFFFE0;
+		}
 		
+.i4 p{
+	position: absolute;
+	top: 300%;
+/* 	transform: translate(-50%,-50%); */
+	font-size:  20px;
+	color: #FFFFE0;
+		}
+		
+	
 .mdl h3{
 	position: absolute;
-	top: 465%;
+	top: 505%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	font-size:  35px;
@@ -163,11 +180,42 @@ ul{
 		
 .ml p{
 	position: absolute;
-	top: 470%;
+	top: 510%;
 /* 	transform: translate(-50%,-50%); */
 	font-size:  20px;
 	color: #FFFFE0;
 }
+		
+.i6 p{
+	position: absolute;
+	top: 580%;
+/* 	transform: translate(-50%,-50%); */
+	font-size:  20px;
+	color: #FFFFE0;
+		}
+.i7 p{
+	position: absolute;
+	top: 650%;
+/* 	transform: translate(-50%,-50%); */
+	font-size:  20px;
+	color: #FFFFE0;
+		}
+.i8 p{
+	position: absolute;
+	top: 750%;
+/* 	transform: translate(-50%,-50%); */
+	font-size:  20px;
+	color: #FFFFE0;
+		}
+.i9 p{
+	position: absolute;
+	top: 825%;
+/* 	transform: translate(-50%,-50%); */
+	font-size:  20px;
+	color: #FFFFE0;
+		}
+
+			
 
 .expr h3{
 	position: absolute;
@@ -302,19 +350,23 @@ Because the dataset already has 11,000+ rows, we opted to discard the rows with 
 				Table which gives country wise total defined cases and showing top 10 countries.
 <img src="733_2.PNG" alt=” TOP 10 COVID AFFECTED COUNTRIES ”  width="400" height="450" align="middle" ></p>
 
-
-
-				
+		</div>
+		
+		<div class="i3">	
 				<p>This is a progression of COVID 19 cases spread graph over time. The radius of the circle represents the number of cases and the colors indicate intensity of cases.
 				<img src="733_3.PNG" alt=” Progression for spread of covid”  width="400" 
 				     height="450" align="middle" ></p>
-			
+		</div>	
 
 				
-				
-				<p>This visualization represents the number of confirmed cases worldwide (focussed on US).
+		<div class="i4">
+			
+		
+		
+		<p>This visualization represents the number of confirmed cases worldwide (focussed on US).
 				<img src="733_4.PNG" alt=” Confirmed cases worldwide”  width="400" 
      height="500" align="middle" > </p>
+		</div>	
 
 
 <div>
@@ -326,7 +378,7 @@ Because the dataset already has 11,000+ rows, we opted to discard the rows with 
 	
 	<div class = "ml">
 		<p> <img src="733_5.PNG" alt=” Progression for spread of covid”  width="400" 
-     height="650" align="left" >
+     height="650" align="middle" >
 			We have considered 4 autoregression methods to predict future values of confirmed COVID-19 cases
 
 1      SVM (Support Vector Method Regression Method)
@@ -336,31 +388,42 @@ Because the dataset already has 11,000+ rows, we opted to discard the rows with 
 3      Linear Regression Method
 
 4      Bayesian Ridge Regression Method
-
-
+		</p>
+		
+		<div class="i6">
+			<p>
 
 Support Vector Machine: It is well-known for its classification's discriminative power. By maximizing the data between data clusters, this training technique constructs a model by discovering a hyperplane and accurately classifies data. 
 			<img src="733_6.PNG" alt=” Progression for spread of covid”  width="400" 
-     height="450" align="left" >
+     height="450" align="middle" >
 
+			</p>
 
-
-
+		</div>
+		<div class="i7">
+			<p>
 
 Bayesian Ridge Regression: We use probability distributions instead of point estimates to formulate linear regression from a Bayesian perspective. The answer, y, is assumed to be drawn from a probability distribution rather than being calculated as a single value. The purpose of Bayesian Linear Regression is to identify the lateral distribution of the model's parameters, not to select a single "best value" of the model's parameters.
 
 <img src="733_7.PNG" alt=” Progression for spread of covid”  width="400" 
-     height="450" align="left" >
+     height="450" align="middle" >
 
-
+			</p>
+		</div>
+		
+		<div class="i8">
+			<p>
 
 Linear Regression: This section presented how to model the relationship between a scalar answer and one or more explanatory variables using a linear method.
 
 
 
 <img src="733_8.PNG" alt=” Progression for spread of covid”  width="400" 
-     height="450" align="left" >
-
+     height="450" align="middle" >
+			</p>
+			
+		<div class= "i9">
+			<p>
 
 
 Polynomial Regression:
@@ -382,6 +445,7 @@ In a curvilinear connection, the value of the target variable varies non-uniform
 
 </p>
 			</div>
+		</div>
 			
 			<div class="expr">
 				<h3> EXPERMIENTAL RESULTS</h3>
