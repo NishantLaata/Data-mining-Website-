@@ -137,7 +137,7 @@ ul{
 .exp h3{
 	
 	position: absolute;
-	top: 175%;
+	top: 205%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	font-size:  35px;
@@ -146,7 +146,7 @@ ul{
 
 .expl p{
 	position: absolute;
-	top: 180%;
+	top: 210%;
 /* 	transform: translate(-50%,-50%); */
 	font-size:  20px;
 	color: #FFFFE0;
@@ -196,8 +196,10 @@ As additional data becomes available, modelling methods can be used to discover 
 		</div>
 		<div class="bgp">
 			<p>In the aftermath of COVID-19, it has become considerably more challenging and crucial, since cases have increased dramatically. It is critical to evaluate what the future holds and what actions everyone can take. Forecasting cases can help guide public health decision-making by projecting the likely effects of the COVID-19 pandemic in the next weeks. Understanding the causes that cause the increase in COVID-19 can also help people better comprehend the triggers. They can also avoid areas where there is a risk of transmission.
-		</div>
+		
   In the subject of COVID-19 prediction, there is a lot of research going on. In our study, we want to forecast the number of cases and the factors that influence the number of cases in the future. </p>
+		
+		</div>	
 		<div class="exp"
 		     <h3>EXPLORATORY DATA ANALYSIS</h3>
 		</div>
@@ -229,18 +231,18 @@ Several attributes in this dataset had missing values. We experienced difficulty
 
 Because the dataset already has 11,000+ rows, we opted to discard the rows with missing values. We imported the data into MySQL and utilized queries and functions to get all non-empty rows. We removed columns that were no longer needed and would be unused data as part of the cleaning process. To remove the columns from the entire dataset - 'time series covid 19,' we utilized Python's drop() function.
 
-				Table which gives country wise total defined cases and showing top 10 countries.</p> 
-<img src=".jpg" alt=”733_2.PNG”>
+				Table which gives country wise total defined cases and showing top 10 countries.
+<img src="733_2.PNG" alt=” TOP 10 COVID AFFECTED COUNTRIES ”>
 
 
-<p>This is a progression of COVID 19 cases spread graph over time. The radius of the circle represents the number of cases and the colors indicate intensity of cases.</p> 
-			<img src=".jpg" alt=”733_3.PNG”>
+This is a progression of COVID 19 cases spread graph over time. The radius of the circle represents the number of cases and the colors indicate intensity of cases.
+				<img src="733_3.PNG" alt=” Progression for spread of covid”>
 			
 
 
 
-<p>This visualization represents the number of confirmed cases worldwide (focussed on US). (733_4) </p>
-			<img src=".jpg" alt=”733_4.PNG”>
+This visualization represents the number of confirmed cases worldwide (focussed on US). (733_4) </p>
+			<img src="733_4.PNG" alt=” Confirmed cases worldwide”>
 
 
 
