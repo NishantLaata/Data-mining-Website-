@@ -162,7 +162,7 @@ ul{
 		
 .i4 p{
 	position: absolute;
-	top: 420%;
+	top: 380%;
 /* 	transform: translate(-50%,-50%); */
 	font-size:  20px;
 	color: #FFFFE0;
@@ -180,7 +180,7 @@ ul{
 		
 .ml p{
 	position: absolute;
-	top: 520%;
+	top: 525%;
 /* 	transform: translate(-50%,-50%); */
 	font-size:  20px;
 	color: #FFFFE0;
@@ -233,9 +233,37 @@ ul{
 	color: #FFFFE0;
 		}
 		
+		
+.i11 p{
+	position: absolute;
+	top: 1025%;
+/* 	transform: translate(-50%,-50%); */
+	font-size:  20px;
+	color: #FFFFE0;
+		}
+		
+		
+.i12 p{
+	position: absolute;
+	top: 1100%;
+/* 	transform: translate(-50%,-50%); */
+	font-size:  20px;
+	color: #FFFFE0;
+		}
+
+		
+.i13 p{
+	position: absolute;
+	top: 1200%;
+/* 	transform: translate(-50%,-50%); */
+	font-size:  20px;
+	color: #FFFFE0;
+		}
+
+		
 .con h3{
 	position: absolute;
-	top: 1180%;
+	top: 1300%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	font-size:  35px;
@@ -243,14 +271,14 @@ ul{
 		}
 .con1 p{
 	position: absolute;
-	top: 1185%;
+	top: 1305%;
 /* 	transform: translate(-50%,-50%); */
 	font-size:  20px;
 	color: #FFFFE0;
 		}
 .fut h3{
 	position: absolute;
-	top: 1220%;
+	top: 1400%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	font-size:  35px;
@@ -365,7 +393,7 @@ Because the dataset already has 11,000+ rows, we opted to discard the rows with 
 		
 		<p>This visualization represents the number of confirmed cases worldwide (focussed on US).
 				<img src="733_4.PNG" alt=” Confirmed cases worldwide”  width="400" 
-     height="500" align="middle" > </p>
+     height="500" align="left" > </p>
 		</div>	
 
 
@@ -378,7 +406,7 @@ Because the dataset already has 11,000+ rows, we opted to discard the rows with 
 	
 	<div class = "ml">
 		<p> <img src="733_5.PNG" alt=” Progression for spread of covid”  width="400" 
-     height="650" align="middle" >
+     height="650" align="left" >
 			We have considered 4 autoregression methods to predict future values of confirmed COVID-19 cases
 
 1      SVM (Support Vector Method Regression Method)
@@ -395,7 +423,7 @@ Because the dataset already has 11,000+ rows, we opted to discard the rows with 
 
 Support Vector Machine: It is well-known for its classification's discriminative power. By maximizing the data between data clusters, this training technique constructs a model by discovering a hyperplane and accurately classifies data. 
 			<img src="733_6.PNG" alt=” Progression for spread of covid”  width="400" 
-     height="450" align="middle" >
+     height="450" align="left" >
 
 			</p>
 
@@ -406,7 +434,7 @@ Support Vector Machine: It is well-known for its classification's discriminative
 Bayesian Ridge Regression: We use probability distributions instead of point estimates to formulate linear regression from a Bayesian perspective. The answer, y, is assumed to be drawn from a probability distribution rather than being calculated as a single value. The purpose of Bayesian Linear Regression is to identify the lateral distribution of the model's parameters, not to select a single "best value" of the model's parameters.
 
 <img src="733_7.PNG" alt=” Progression for spread of covid”  width="400" 
-     height="450" align="middle" >
+     height="450" align="left" >
 
 			</p>
 		</div>
@@ -419,7 +447,7 @@ Linear Regression: This section presented how to model the relationship between 
 
 
 <img src="733_8.PNG" alt=” Progression for spread of covid”  width="400" 
-     height="450" align="middle" >
+     height="450" align="left" >
 			</p>
 			
 		<div class= "i9">
@@ -450,7 +478,9 @@ In a curvilinear connection, the value of the target variable varies non-uniform
 			<div class="expr">
 				<h3> EXPERMIENTAL RESULTS</h3>
 			</div>
+			
 			<div class="expr1">
+			
 				<p>Comparing the parameters MAE, MSE and R2 for all the four methods, we observe that the polynomial regression is best fit for our dataset. The reason is that the mean absolute error is less and the coefficient value is higher than other methods[5].
 
 
@@ -458,32 +488,47 @@ In a curvilinear connection, the value of the target variable varies non-uniform
 <img src="733_10.PNG" alt=” Progression for spread of covid”  width="400" 
      height="450" align="left" >
 
-
+				
 
 Table1: This represents the comparison of the various parameters of methods we used to train the model on our dataset.
 
-The temperature plays a major role in transmission of the covid which can be observed with the below choropleth globe visualization[3]:
+The temperature plays a major role in transmission of the covid which can be observed with the below choropleth globe visualization[3]:</p>
 
+					<div class ="i11">
+					<p>	
+						
 Forecast of number of cases using autoregression(polynomial regression) model
 
 <img src="733_11.PNG" alt=” Progression for spread of covid”  width="400" 
-     height="450" align="left" >
+     height="450" align="left" ></p>
+						
+				</div>	
 
 
+				<div class ="i12">
+	
 
-<img src="733_12.PNG" alt=” Progression for spread of covid”  width="400" 
-     height="450" align="left" >
-
+<p>
 Number of confirmed cases from 8th december 2020 to 12th december 2020.
+	
+	<img src="733_12.PNG" alt=” Progression for spread of covid”  width="400" 
+     height="450" align="left" >
+	</p>
+	
+				</div>
+				
+				<div class="i13">
+					<p>
 
+The confirmed and recovered cases are plotted against the date in this graph. This is a range slider type of graph which compares the number of confirmed and recovered cases over time.
 
 
 <img src="733_13.PNG" alt=” Progression for spread of covid”  width="400" 
      height="450" align="left" >
 
-The confirmed and recovered cases are plotted against the date in this graph. This is a range slider type of graph which compares the number of confirmed and recovered cases over time.
 
- </p>
+					 </p>
+				</div>
 			</div>
 			
 			<div class="con">
